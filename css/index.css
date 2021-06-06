@@ -22,7 +22,6 @@ main {
 
 img {
   max-width: 280px;
-  margin-top: 40px;
   box-shadow: 1px 1px 10px 5px #888888;
   cursor: pointer;
 }
@@ -31,7 +30,7 @@ img {
 .link-to-site-button,
 .change-log-button {
   height: 30px;
-  width: 150px;
+  width: 220px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -56,4 +55,12 @@ a {
 
 .change-log-button {
   background-color: green;
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: normal;
 }
