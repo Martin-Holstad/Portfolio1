@@ -1,0 +1,59 @@
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  gap: 100px;
+}
+
+.rainydays-container,
+.community-science-musuem-container,
+.food-for-you-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 150px;
+  height: 550px;
+  border-radius: 20px 20px;
+  box-shadow: 5px 10px 5px 10px #888888;
+}
+
+img {
+  max-width: 280px;
+  margin-top: 40px;
+  box-shadow: 1px 1px 10px 5px #888888;
+  cursor: pointer;
+}
+
+.github-button,
+.link-to-site-button,
+.change-log-button {
+  height: 30px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 2px #888888;
+}
+
+a {
+  text-decoration: none;
+}
+
+.github-button {
+  background-color: black;
+}
+
+.link-to-site-button {
+  background-color: red;
+}
+
+.change-log-button {
+  background-color: green;
+}
